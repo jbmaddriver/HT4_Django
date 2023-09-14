@@ -12,7 +12,7 @@ fake = Faker()
 # Generate user using Faker. PATH..../generate-student/
 
 def gen_student(request):
-    student = Studentslist.objects.create(first_name=fake.first_name(), last_name=fake.last_name(),age=fake.random_int(min=18, max=40, step=1))
+    student = Studentslist.objects.create(first_name=fake.first_name(), last_name=fake.last_name(),age=fake.random_int(min=18, max=45, step=1))
     # all_students = Studentslist.objects.all().values()
     template = loader.get_template('gen_student.html')
     context = {'student': student}
@@ -27,7 +27,7 @@ def gen_students100(request):
         gen_number = query_number
         student_list = []
         for s in range(gen_number):
-            temp_arg = Studentslist100.objects.create(first_name=fake.first_name(), last_name=fake.last_name(),age=fake.random_int(min=18, max=40, step=1))
+            temp_arg = Studentslist100.objects.create(first_name=fake.first_name(), last_name=fake.last_name(),age=fake.random_int(min=18, max=45, step=1))
             student_list.append(temp_arg)
         all_students = student_list
         # all_students = Studentslist100.objects.all().values()

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Students list as per requested quantity</h1>
+
+<table border='1'>
+  <tr>
+    <th>ID</th>
+    <th>First_name</th>
+    <th>Last_name</th>
+    <th>Age</th>
+
+  {% for x in student100%}
+    <tr>
+      <td>{{ x.id }}</td>
+        <td>{{ x.first_name }}</td>
+      <td>{{ x.last_name }}</td>
+      <td>{{ x.age }}</td>
+
+    </tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>

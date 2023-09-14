@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Groups list</h1>
+
+<table border='1'>
+  <tr>
+    <th>ID</th>
+    <th>Group_name</th>
+    <th>Group_level</th>
+    <th>Date_start</th>
+    <th>Duration</th>
+    <th>Number_of_students</th>
+    <th>Average_mark</th>
+  </tr>
+  {% for x in groups%}
+    <tr>
+      <td>{{ x.id }}</td>
+        <td>{{ x.group_name }}</td>
+      <td>{{ x.group_level }}</td>
+      <td>{{ x.date_start }}</td>
+      <td>{{ x.duration }}</td>
+      <td>{{ x.number_of_students }}</td>
+      <td>{{ x.average_mark }}</td>
+    </tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>

@@ -1,13 +1,11 @@
 from django.db import models
 
-# Create your models here.
 
-class Groups_list(models.Model):
+class Group(models.Model):
     group_name = models.CharField(max_length=50)
     group_level = models.CharField(max_length=20)
     date_start = models.DateField()
     duration = models.CharField(max_length=20)
-    # duration = models.DurationField()
     number_of_students = models.IntegerField()
     average_mark = models.FloatField()
 

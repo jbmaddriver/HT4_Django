@@ -2,7 +2,8 @@ from django.db import models
 
 # Generate 1 user.
 
-class Studentslist(models.Model):
+
+class Student(models.Model):
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
     age = models.IntegerField()
@@ -12,9 +13,9 @@ class Studentslist(models.Model):
         return f'{self.first_name} {self.last_name} {self.age}'
 
 
-# Generate number of Students as per URL query.
+# Generate number of students as per URL query.
 
-class Studentslist100(models.Model):
+class Students100(models.Model):
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
     age = models.IntegerField()

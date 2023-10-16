@@ -4,7 +4,7 @@ from . import models
 from django.http import HttpResponse, HttpRequest, request
 from django.http import  QueryDict
 from django.template import loader
-from .models import Student, Students100
+from .models import Student
 from faker import Faker
 fake = Faker()
 
@@ -27,7 +27,7 @@ def gen_students100(request):
         gen_number = query_number
         student_list = []
         for s in range(gen_number):
-            temp_arg = Students100.objects.create(first_name=fake.first_name(), last_name=fake.last_name(),age=fake.random_int(min=18, max=45, step=1))
+            temp_arg = Student.objects.create(first_name=fake.first_name(), last_name=fake.last_name(),age=fake.random_int(min=18, max=45, step=1))
             student_list.append(temp_arg)
         all_students = student_list
         template = loader.get_template('gen_students100.html')

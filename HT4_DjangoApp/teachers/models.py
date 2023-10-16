@@ -20,7 +20,7 @@ def validate_comma_separated_integer_list(value):
 
 # Create your models here.
 
-class Teachers_list(models.Model):
+class Teacher(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     age = models.IntegerField()

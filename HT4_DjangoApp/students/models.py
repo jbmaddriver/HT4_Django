@@ -8,18 +8,5 @@ class Student(models.Model):
     last_name = models.CharField(max_length=255)
     age = models.IntegerField()
 
-
     def __str__(self):
-        return f'{self.first_name} {self.last_name} {self.age}'
-
-
-# Generate number of students as per URL query.
-
-class Students100(models.Model):
-    first_name = models.CharField(max_length=255)
-    last_name = models.CharField(max_length=255)
-    age = models.IntegerField()
-
-
-    def __str__(self):
-        return f'{self.first_name} {self.last_name} {self.age}'
+        return f"{self.first_name} {self.last_name} {self.age}"

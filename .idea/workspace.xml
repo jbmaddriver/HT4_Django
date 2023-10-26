@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="633b1409-94fd-4294-a1e7-8932bd3633ac" name="Changes" comment="Scratch file deleted">
+    <list default="true" id="633b1409-94fd-4294-a1e7-8932bd3633ac" name="Changes" comment="Django App updated as per advises.">
+      <change beforePath="$PROJECT_DIR$/.idea/HT4_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HT4_Django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HT4_DjangoApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/HT4_DjangoApp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoHT4/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoHT4/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT4_DjangoApp/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/HT4_DjangoApp/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HT4_DjangoApp/students/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HT4_DjangoApp/students/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,7 +32,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="main" />
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="JBDjangoApps" />
         <entry key="$PROJECT_DIR$/DjangoHT4" value="master" />
       </map>
     </option>
@@ -46,11 +53,31 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;JBDjangoApps&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/jb/PycharmProjects/PythonPro/HT4_Django&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;HT4__DjangoApps__Updates&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/PycharmProjects/PythonPro/HT4_Django&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="HT4_Django" sdk-home="C:\Program Files\Python312\python.exe">
+        <option name="sdk">
+          <Sdk />
+        </option>
+        <option name="mySdkHome" value="C:\Program Files\Python312\python.exe" />
+        <option name="mySdk">
+          <Sdk />
+        </option>
+        <option name="myModuleName" value="HT4_Django" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HT4_DjangoApp/Teachers" />
@@ -63,7 +90,7 @@
       <recent name="$PROJECT_DIR$/HT4_DjangoApp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.DjangoServer">
     <configuration name="context_processors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HT4_Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,11 +99,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pyenv/lib/python3.10/site-packages/django/template" />
+      <option name="WORKING_DIRECTORY" value="$ubuntu_packages$/django/template" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pyenv/lib/python3.10/site-packages/django/template/context_processors.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$ubuntu_packages$/django/template/context_processors.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,6 +113,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="DjangoServer" type="Python.DjangoServer" factoryName="Django server">
+      <module name="HT4_Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python312\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.DjangoServer" />
+      <item itemvalue="Python.context_processors" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.context_processors" />
@@ -103,6 +158,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694463007956</updated>
+      <workItem from="1697471961638" duration="2676000" />
+      <workItem from="1697474681428" duration="1413000" />
+      <workItem from="1697476179454" duration="314000" />
+      <workItem from="1697476677773" duration="164000" />
+      <workItem from="1697476851340" duration="75000" />
+      <workItem from="1697476940555" duration="42000" />
+      <workItem from="1697476983860" duration="243000" />
+      <workItem from="1697477242539" duration="257000" />
+      <workItem from="1697477514182" duration="41000" />
+      <workItem from="1697477582833" duration="125000" />
+      <workItem from="1697477797490" duration="102000" />
+      <workItem from="1697479675929" duration="2719000" />
+      <workItem from="1697482682031" duration="1206000" />
+      <workItem from="1697486993361" duration="3487000" />
+      <workItem from="1697490544708" duration="277000" />
+      <workItem from="1697491049974" duration="21000" />
+      <workItem from="1697551040853" duration="107000" />
+      <workItem from="1697834997099" duration="77000" />
+      <workItem from="1697876421638" duration="27000" />
+      <workItem from="1697880350534" duration="323000" />
+      <workItem from="1697889899972" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Django TestApp project created.">
       <option name="closed" value="true" />
@@ -168,8 +244,27 @@
       <option name="project" value="LOCAL" />
       <updated>1694684975140</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Django App updated as per advises.">
+      <option name="closed" value="true" />
+      <created>1697449844026</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697449844026</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Django App updated as per advises.">
+      <option name="closed" value="true" />
+      <created>1697450787947</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697450787947</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -186,6 +281,10 @@
     <MESSAGE value="Django apps added" />
     <MESSAGE value="View.py minor changes with fake generated age." />
     <MESSAGE value="Scratch file deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scratch file deleted" />
+    <MESSAGE value="Django App updated as per advises." />
+    <option name="LAST_COMMIT_MESSAGE" value="Django App updated as per advises." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HT4_Django$context_processors.coverage" NAME="context_processors Coverage Results" MODIFIED="1697475360733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$ubuntu_packages$/django/template" />
   </component>
 </project>

@@ -9,6 +9,6 @@ class Group(models.Model):
     number_of_students = models.IntegerField()
     average_mark = models.FloatField()
 
-
     def __str__(self):
-        return f'{self.group_name} {self.group_level} {self.date_start} {self.duration} {self.number_of_students} {self.average_mark}'
+        return (f"{self.group_name} {self.group_level} {self.date_start} {self.duration} "
+                f"{self.number_of_students} {self.average_mark}")
